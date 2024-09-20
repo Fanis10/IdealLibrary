@@ -1,0 +1,2396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="@@description">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Карточка товара</title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top__inner">
+                <ul class="header-bottom__list">
+                    <li><a href="">Подарочные книги</a></li>
+                    <li><a href="">Готовые библиотеки</a></li>
+                    <li><a href="">Мебель для библиотек</a></li>
+                    <li><a href="">Антикварные книги</a></li>
+                    <li><a href="">Книги АРТ-объекты</a></li>
+                    <li><a href="">Авторы</a></li>
+                </ul>
+                <div class="search">
+                    <input class="search-input" type="text">
+                    <span class="search-title">Поиск...</span>
+                    <span class="search-btn">
+                                <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99999 0.25C4.61521 0.25 0.25 4.61521 0.25 9.99999C0.25 15.3848 4.61521 19.75 9.99999 19.75C12.151 19.75 14.1393 19.0534 15.7517 17.8736L20.4238 23.4801L21.5762 22.5199L16.891 16.8976C18.6573 15.133 19.75 12.6941 19.75 9.99999C19.75 4.61521 15.3848 0.25 9.99999 0.25ZM1.75 9.99999C1.75 5.44364 5.44364 1.75 9.99999 1.75C14.5564 1.75 18.25 5.44364 18.25 9.99999C18.25 14.5564 14.5564 18.25 9.99999 18.25C5.44364 18.25 1.75 14.5564 1.75 9.99999Z" fill="white"/>
+                                </svg>
+                            </span>
+                </div>
+                <ul class="header-top__list">
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Контакты</a></li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="">Услуги</a></li>
+                </ul>
+                <div class="header-top__group">
+                    <div class="header-top__time">Время работы с 9.00 до 21.00</div>
+                    <a href="tel:79603295500" class="header-top__phone">+7 (960) 329-55-00</a>
+                    <div class="header-top__socials">
+                        <a class="header-top__social" href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6275 5.37258 24 12 24C18.6275 24 24 18.6275 24 12C24 5.37258 18.6275 0 12 0ZM1.64119 12C1.64119 6.27899 6.27899 1.64119 12 1.64119C17.7211 1.64119 22.3588 6.27898 22.3588 12C22.3588 17.7211 17.7211 22.3588 12 22.3588C6.27898 22.3588 1.64119 17.7211 1.64119 12ZM9.56217 16.6349L9.7654 13.7317L15.0977 8.95104C15.3299 8.74781 15.0493 8.63168 14.7396 8.83491L8.15894 12.9478L5.32346 12.0672C4.7041 11.8736 4.69443 11.4478 5.44926 11.1575L16.5299 6.91878C17.0428 6.72523 17.488 7.03491 17.3235 7.8091L15.4364 16.6446C15.3009 17.264 14.9235 17.4188 14.4009 17.1285L11.5267 15.0285L10.1428 16.3543C9.98798 16.5091 9.86218 16.6349 9.56217 16.6349Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a class="header-top__social" href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4922 3.49247C18.2366 1.24663 15.2354 0.00951626 12.043 0C5.45759 0 0.105137 5.33862 0.0955794 11.8953C0.0955794 13.9889 0.640382 16.0349 1.69176 17.843L0 24L6.33692 22.3442C8.08602 23.2958 10.0454 23.7906 12.043 23.7906H12.0526C18.638 23.7906 23.9904 18.452 24 11.8953C23.9904 8.72641 22.7479 5.7383 20.4922 3.49247ZM12.043 21.7922C10.2557 21.7922 8.50657 21.3164 6.98686 20.4124L6.62366 20.1935L2.86738 21.1737L3.87097 17.5289L3.63202 17.1578C2.63799 15.5876 2.11231 13.7605 2.11231 11.8953C2.11231 6.44251 6.56631 2.00793 12.043 2.00793C14.6906 2.00793 17.1852 3.03569 19.0585 4.91039C20.9319 6.77557 21.9642 9.25932 21.9642 11.9048C21.9737 17.3577 17.5197 21.7922 12.043 21.7922ZM17.491 14.3886C17.1947 14.2363 15.7228 13.5226 15.4552 13.4179C15.178 13.3228 14.9869 13.2657 14.7861 13.5702C14.5854 13.8652 14.0119 14.5408 13.8399 14.7312C13.6679 14.931 13.4958 14.95 13.19 14.8073C12.8937 14.655 11.9283 14.341 10.7909 13.3323C9.90203 12.5424 9.30944 11.5718 9.12784 11.2768C8.95579 10.9818 9.12784 10.8295 9.26165 10.6677C9.58662 10.268 9.91159 9.84933 10.0072 9.64948C10.1027 9.44964 10.055 9.27835 9.97849 9.12609C9.90203 8.97383 9.30944 7.51784 9.06093 6.91832C8.82198 6.34734 8.57348 6.42347 8.39188 6.41396C8.21983 6.40444 8.01912 6.40444 7.8184 6.40444C7.61768 6.40444 7.29271 6.48057 7.02509 6.77557C6.74791 7.07058 5.98327 7.79381 5.98327 9.2498C5.98327 10.7058 7.05376 12.1237 7.20669 12.3236C7.35962 12.5234 9.30944 15.521 12.3011 16.8057C13.0179 17.1102 13.5723 17.291 14.0024 17.4338C14.7192 17.6622 15.3692 17.6241 15.8853 17.548C16.4588 17.4623 17.6535 16.8247 17.902 16.1396C18.1505 15.4449 18.1505 14.8549 18.0741 14.7312C17.9881 14.6075 17.7873 14.5313 17.491 14.3886Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <button class="header-top__btn">
+                        <span>Обратный звонок</span>
+                    </button>
+                </div>
+                <button class="header-center__btn btn btn-white__outline">
+                    <span>Индивидуальный заказ</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="header-center">
+        <div class="container">
+            <div class="header-center__inner">
+                <a href="" class="header-center__logo">
+                    <img src="img/logo.svg" alt="">
+                    <img src="img/logo-mob.svg" alt="">
+                </a>
+                <div class="header-center__wrap">
+                    <button class="header-center__btn btn btn-white__outline">
+                        <span>Индивидуальный заказ</span>
+                    </button>
+                    <div class="header-center__group">
+                        <a class="header-center__phone" href="">
+                            <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.9195 12.9949L15.9152 12.9924C14.8593 12.3676 13.7076 12.7341 13.1801 13.4423C12.9721 13.7158 12.7077 14.3251 12.3269 14.3479C9.91198 13.6568 8.15678 11.519 7.43048 9.17403C7.39377 9.05551 7.38138 8.87541 7.48543 8.78576L8.26692 8.12483C8.95654 7.55818 9.25393 6.38847 8.70024 5.33098L8.69591 5.32284C7.85169 3.75757 7.16268 2.89752 6.7632 2.39887C6.35825 1.89338 5.98196 1.39978 5.29494 1.27782C4.79504 1.18907 4.33891 1.33804 3.89555 1.5512C3.20474 1.96387 2.457 2.57083 1.93388 3.30832C1.41019 4.04662 1.05457 5.00648 1.367 6.03791C2.36972 10.0489 8.4885 18.1499 15.1525 20.6212C16.1795 20.9723 17.1239 20.5593 17.8191 20.0034C18.5568 19.4134 19.1952 18.5918 19.5694 17.7219C19.9171 16.8759 19.7675 15.9597 19.075 15.3483C18.2009 14.5284 16.9191 13.5955 15.9195 12.9949Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"/>
+                            </svg>
+                        </a>
+                        <div class="search">
+                            <input class="search-input" type="text">
+                            <span class="search-title">Поиск...</span>
+                            <span class="search-btn">
+                                <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99999 0.25C4.61521 0.25 0.25 4.61521 0.25 9.99999C0.25 15.3848 4.61521 19.75 9.99999 19.75C12.151 19.75 14.1393 19.0534 15.7517 17.8736L20.4238 23.4801L21.5762 22.5199L16.891 16.8976C18.6573 15.133 19.75 12.6941 19.75 9.99999C19.75 4.61521 15.3848 0.25 9.99999 0.25ZM1.75 9.99999C1.75 5.44364 5.44364 1.75 9.99999 1.75C14.5564 1.75 18.25 5.44364 18.25 9.99999C18.25 14.5564 14.5564 18.25 9.99999 18.25C5.44364 18.25 1.75 14.5564 1.75 9.99999Z" fill="white"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <a href="" class="header-center__basket">
+                            <svg width="29" height="21" viewBox="0 0 29 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.44356 7.35943L12.4202 0.892926L11.1424 0.107178L6.68262 7.35943H4.01562H0.9375V8.85943H3.45872L6.77082 19.823C6.86645 20.1396 7.1581 20.3561 7.48877 20.3561H22.45C22.7807 20.3561 23.0723 20.1396 23.168 19.823L26.48 8.85943H28.9983V7.35943H25.9231H23.2588L18.799 0.10718L17.5213 0.892924L21.4979 7.35943H8.44356ZM24.9131 8.85943H5.02568L8.04568 18.8561H21.8931L24.9131 8.85943Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <div class="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header-bottom__inner">
+                <ul class="header-bottom__list">
+                    <li><a href="">Подарочные книги</a></li>
+                    <li><a href="">Готовые библиотеки</a></li>
+                    <li><a href="">Мебель для библиотек</a></li>
+                    <li><a href="">Антикварные книги</a></li>
+                    <li><a href="">Книги АРТ-объекты</a></li>
+                    <li><a href="">Авторы</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+		<main class="content">
+			<section class="breadcrumbs">
+				<div class="container">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<a href="index.html" class="swiper-slide breadcrumbs__item">Главная</a>
+							<a href="" class="swiper-slide breadcrumbs__item">Каталог</a>
+							<a href="" class="swiper-slide breadcrumbs__item">Подарочные книги в натуральной коже</a>
+							<span class="swiper-slide breadcrumbs__item breadcrumbs__item--active">Книга Ножи, подарочное издание</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="product-main">
+				<div class="container">
+					<div class="product-main__inner">
+						<div class="product-main__top">
+							<h1 class="product-main__title h2">ПОДАРОЧНЫЕ КНИГИ "РУССКИЕ ДЕНЬГИ" НРА ПОДСТАВКЕ</h1>
+							<button class="share">
+								<svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M20.0212 4.60944C19.6606 1.95125 17.1976 0.0864606 14.5199 0.444398C11.842 0.802329 9.96355 3.24748 10.3242 5.90573C10.4524 6.85106 10.8465 7.69603 11.4216 8.37639L8.49976 11.277C7.47644 10.3831 6.08328 9.91772 4.62638 10.1125C1.95747 10.4692 0.0852605 12.9062 0.444558 15.5558C0.80399 18.2052 3.2588 20.0639 5.92772 19.7071C7.17138 19.5409 8.24205 18.923 8.99456 18.0424L13.3302 20.0543C13.2765 20.4711 13.2761 20.9017 13.3353 21.3379C13.7005 24.0298 16.1948 25.9184 18.9065 25.5558C21.6183 25.1934 23.5206 22.7172 23.1555 20.0251C22.7903 17.3331 20.296 15.4446 17.5843 15.8072C15.8359 16.0408 14.4241 17.153 13.7394 18.6353L9.76981 16.7932C10.099 16.0214 10.2304 15.1546 10.1096 14.2638C10.017 13.5813 9.78537 12.9512 9.44683 12.398L12.5254 9.34189C13.4691 9.94536 14.6258 10.2312 15.8255 10.0709C18.5032 9.71286 20.3817 7.26777 20.0212 4.60944ZM14.7158 1.88887C16.5899 1.63835 18.3137 2.94349 18.5661 4.80397C18.8184 6.66458 17.5037 8.37583 15.6296 8.62639C13.7555 8.87687 12.0315 7.57164 11.7792 5.7112C11.5268 3.85075 12.8415 2.13938 14.7158 1.88887ZM4.82234 11.557C6.68762 11.3076 8.4034 12.6066 8.65452 14.4583C8.90573 16.3101 7.59718 18.0133 5.73179 18.2626C3.86655 18.512 2.15083 17.213 1.89962 15.3613C1.64849 13.5095 2.95708 11.8063 4.82234 11.557ZM17.7802 17.2516C19.6883 16.9965 21.4435 18.3253 21.7005 20.2196C21.9573 22.114 20.6187 23.8563 18.7106 24.1113C16.8025 24.3664 15.0473 23.0376 14.7903 21.1433C14.5335 19.2489 15.872 17.5066 17.7802 17.2516Z" fill="white"/>
+								</svg>
+							</button>
+						</div>
+						<div class="product-main__wrap">
+							<div class="gallery">
+								<div class="gallery__big swiper mySwiper2">
+									<div class="swiper-wrapper gallery-group">
+										<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img.webp">
+											<img src="img/product-main__img.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img3.webp">
+											<img src="img/product-main__img3.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img4.webp">
+											<img src="img/product-main__img4.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img5.webp">
+											<img src="img/product-main__img5.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img6.webp">
+											<img src="img/product-main__img6.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img.webp">
+											<img src="img/product-main__img.webp" alt="">
+										</a>
+										<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img3.webp">
+											<img src="img/product-main__img3.webp" alt="">
+										</a>
+									</div>
+									<div class="swiper-slide__btns">
+										<div class="swiper-button-prev">
+											<img src="img/arrow_left.svg" alt="">
+										</div>
+										<div class="swiper-button-next">
+											<img src="img/arrow_right.svg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="gallery__small-wrapp">
+									<div thumbsslider="" class="gallery__small swiper mySwiper">
+										<div class="swiper-wrapper">
+											<a class="swiper-slide">
+												<img src="img/product-main__img.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/product-main__img3.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/product-main__img4.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/product-main__img5.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/product-main__img6.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/product-main__img.webp" alt="">
+											</a>
+											<a class="swiper-slide">
+												<img src="img/product-main__img3.webp" alt="">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-main__desc">
+								<div class="product-main__group">
+									<div class="product-main__price">
+										<span>18 000</span>
+										<span>18 000</span>
+									</div>
+									<div class="product-main__btns">
+										<button class="product-main__btn btn btn-black">
+											<span>Купить</span>
+										</button>
+										<button class="product-main__btn btn btn-black__outline">
+											<span>Купить в 1 клик</span>
+										</button>
+									</div>
+								</div>
+								<ul class="product-main__list">
+									<li>
+										<span>Артикул:</span>
+										<span>300202</span>
+									</li>
+									<li>
+										<span>Наличие:</span>
+										<strong>уточняйте наличие</strong>
+									</li>
+									<li>
+										<span>Автор:</span>
+										<strong><a href="">А.С. Пушкин</a></strong>
+									</li>
+								</ul>
+								<div class="product-main__group2">
+									<div class="product-main__icon">
+										<img src="img/product-main__icon.svg" alt="">
+									</div>
+									<ul class="product-main__list2">
+										<li>только ручная работа</li>
+										<li>редкая итальянская кожа</li>
+										<li>золотой переплет</li>
+									</ul>
+								</div>
+								<div class="item">
+									<div class="item-show item-show--active">
+										<div class="item-title">Способы доставки</div>
+										<div class="item-btn"></div>
+									</div>
+									<div class="item-hidden">
+										<ul class="product-main__list2">
+											<li>По Москве и Московской области <br>  (до 50 км от МКАД)</li>
+											<li>Самовывоз: г. Москва, ул. Новочерёмушкинская, д.17</li>
+											<li>В регионы России по тарифам транспортных компаний в максимально короткие сроки.</li>
+										</ul>
+										<a href="" class="product-main__link">Условия доставки</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+        	<section class="branding">
+				<div class="container">
+					<div class="branding__inner">
+						<h2 class="branding__title h2">Персонализация и брендирование</h2>
+						<div class="branding__cards">
+							<div class="branding-card">
+								<div class="branding-card__img">
+									<img src="img/branding-img.webp" alt="">
+								</div>
+								<div class="branding-card__desc">
+									<div class="branding-card__title">Вклеить дополнительную страницу в книгу</div>
+									<button class="branding-card__btn btn btn-black__outline">
+										<span>добавить бесплатно</span>
+										<i>
+											<svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M5.82259 6.67676H0.770508V5.32259H5.82259V0.270508H7.17676V5.32259H12.2288V6.67676H7.17676V11.7288H5.82259V6.67676Z" fill="black"/>
+											</svg>
+										</i>
+									</button>
+								</div>
+							</div>
+							<div class="branding-card">
+								<div class="branding-card__img">
+									<img src="img/branding-img2.webp" alt="">
+								</div>
+								<div class="branding-card__desc">
+									<div class="branding-card__title">Вклеить дополнительную страницу в книгу</div>
+									<button class="branding-card__btn btn btn-black__outline">
+										<span>добавить бесплатно</span>
+										<i>
+											<svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M5.82259 6.67676H0.770508V5.32259H5.82259V0.270508H7.17676V5.32259H12.2288V6.67676H7.17676V11.7288H5.82259V6.67676Z" fill="black"/>
+											</svg>
+										</i>
+									</button>
+								</div>
+							</div>
+							<div class="branding-card">
+								<div class="branding-card__img">
+									<img src="img/branding-img3.webp" alt="">
+								</div>
+								<div class="branding-card__desc">
+									<div class="branding-card__title">
+										Разместить монограмму, экслибрис, герб, логотип
+										<span>на обложке, форзаце или всех страницах</span>
+									</div>
+									<button class="branding-card__btn btn btn-black__outline">
+										<span>добавить бесплатно</span>
+										<i>
+											<svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M5.82259 6.67676H0.770508V5.32259H5.82259V0.270508H7.17676V5.32259H12.2288V6.67676H7.17676V11.7288H5.82259V6.67676Z" fill="black"/>
+											</svg>
+										</i>
+									</button>
+								</div>
+							</div>
+							<div class="branding-card">
+								<div class="branding-card__desc">
+									<div class="branding-card__title2">
+										<span>НУжен уникальный дизайн?</span>
+									</div>
+									<button class="branding-card__btn btn btn-black">
+										<span>Эксклюзивный дизайн</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="product-info">
+				<div class="container">
+					<div class="product-info__inner">
+						<div class="product-info__group">
+							<h2 class="h2">Заголовок блока с описанием</h2>
+							<p>В книге предпринимаются попытки взглянуть на историю ислама как единую и неразрывную часть общего процесса складывания и развития государственности на территории Российской Федерации, приведшего в итоге к консолидации широких территорий, населенных представителями различных культур и народов, в составе Российского государства.</p>
+							<br>
+						</div>
+						<div class="product-info__group">
+							<h3>Описание - подзаголовок</h3>
+							<p>Пособие, подготовленное специально для студентов и специалистов, изучающих историю ислама в России, носит обзорный характер. Вместе с тем оно будет полезным для всех тех, кто интересуется историей ислама.</p>
+							<p>Процесс распространения ислама на территории России вплетается в историю ряда политических образований, существование которых может рассматриваться в качестве этапов развития российской государственности.</p>
+							<p>Процесс распространения ислама на территории России вплетается в историю ряда политических образований, существование которых может рассматриваться в качестве этапов развития российской государственности.</p>
+							<p>Процесс распространения ислама на территории России вплетается в историю ряда политических образований, существование которых может рассматриваться в качестве этапов развития российской государственности.</p>
+							<p>Процесс распространения ислама на территории России вплетается в историю ряда политических образований, существование которых может рассматриваться в качестве этапов развития российской государственности.</p>
+							<p>Процесс распространения ислама на территории России вплетается в историю ряда политических образований, существование которых может рассматриваться в качестве этапов развития российской государственности.</p>
+						</div>
+						<div class="open-more">
+							<span>Развернуть</span>
+							<span>Скрыть</span>
+							<i></i>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="characteristic">
+				<div class="container">
+					<div class="characteristic__inner">
+						<h2 class="characteristic__title h2">Характеристики</h2>
+						<nav class="characteristic__nav">
+							<ul class="characteristic__list">
+								<li>
+									<span>Автор</span>
+									<span>Айн Рэнд</span>
+								</li>
+								<li>
+									<span>Переплёт</span>
+									<span>составной</span>
+								</li>
+								<li>
+									<span>Материал</span>
+									<span>кожа</span>
+								</li>
+								<li>
+									<span>Бумага</span>
+									<span>офсетная</span>
+								</li>
+								<li>
+									<span>Тиснение</span>
+									<span>серебро</span>
+								</li>
+							</ul>
+							<ul class="characteristic__list">
+								<li>
+									<span>Количество страниц</span>
+									<span>1073</span>
+								</li>
+								<li>
+									<span>Переплёт</span>
+									<span>русский</span>
+								</li>
+								<li>
+									<span>Материал</span>
+									<span>синий</span>
+								</li>
+								<li>
+									<span>Формат издания</span>
+									<span>200х300х55</span>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="container">
+					<div class="reviews__inner">
+						<div class="reviews__top">
+							<div class="reviews__group">
+								<h2 class="reviews__title h2">Рецензии</h2>
+								<div class="quantity">(<span>18</span> рецензий)</div>
+							</div>
+							<div class="reviews__slider-btns">
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+						</div>
+						<div class="reviews__slider">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide review-card">
+										<div class="review-card__text">
+											<p>Брал в подарок. Удивительная качественная вещь. Имениннику очень понравилась. Решил себе тоже заказать. Все же приятно иметь возможность попить чайку по-царски! Спасибо, очень помог консультант Ольга в выборе, подсказала и подобрала варианты.</p>
+										</div>
+										<div class="review-card__group">
+											<div class="review-card__images">
+												<a href="img/reviews-img.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img.webp" alt="">
+												</a>
+												<a href="img/reviews-img2.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img2.webp" alt="">
+												</a>
+												<a href="img/reviews-img3.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img3.webp" alt="">
+												</a>
+												<a href="img/reviews-img.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img.webp" alt="">
+												</a>
+												<a href="img/reviews-img2.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img2.webp" alt="">
+												</a>
+											</div>
+											<div class="review-card__quantity">+20</div>
+										</div>
+										<div class="review-card__group2">
+											<div class="review-card__user">
+												<div class="review-card__user-img">
+													<img src="img/user-icon.svg" alt="">
+												</div>
+												<div class="review-card__use-desc">
+													<div class="review-card__user-name">Андрей Андреев</div>
+													<div class="review-card__user-post">эксперт</div>
+												</div>
+											</div>
+											<div class="estimation">
+												<div class="stars">
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+												</div>
+												<div class="estimation-number">5,0</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide review-card">
+										<div class="review-card__text">
+											<p>Брал в подарок. Удивительная качественная вещь. Имениннику очень понравилась. Решил себе тоже заказать. Все же приятно иметь возможность попить чайку по-царски!</p>
+											<p>Спасибо, очень помог консультант Ольга в выборе, подсказала и подобрала варианты.</p>
+											<p>Брал в подарок. Удивительная качественная вещь. Имениннику очень понравилась. Решил себе тоже заказать. Все же приятно иметь возможность попить чайку по-царски!</p>
+										</div>
+										<div class="review-card__group2">
+											<div class="review-card__user">
+												<div class="review-card__user-img">
+													<img src="img/user-icon.svg" alt="">
+												</div>
+												<div class="review-card__use-desc">
+													<div class="review-card__user-name">Ирина Шиленкова</div>
+													<div class="review-card__user-post">эксперт</div>
+												</div>
+											</div>
+											<div class="estimation">
+												<div class="stars">
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+												</div>
+												<div class="estimation-number">5,0</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide review-card">
+										<div class="review-card__text">
+											<p>Брал в подарок. Удивительная качественная вещь. Имениннику очень понравилась. Решил себе тоже заказать. Все же приятно иметь возможность попить чайку по-царски! Спасибо, очень помог консультант Ольга в выборе, подсказала и подобрала варианты.</p>
+										</div>
+										<div class="review-card__group">
+											<div class="review-card__images">
+												<a href="img/reviews-img.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img.webp" alt="">
+												</a>
+												<a href="img/reviews-img2.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img2.webp" alt="">
+												</a>
+												<a href="img/reviews-img3.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img3.webp" alt="">
+												</a>
+												<a href="img/reviews-img.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img.webp" alt="">
+												</a>
+												<a href="img/reviews-img2.webp" class="review-card__img" data-fancybox="review-img">
+													<img src="img/reviews-img2.webp" alt="">
+												</a>
+											</div>
+											<div class="review-card__quantity">+20</div>
+										</div>
+										<div class="review-card__group2">
+											<div class="review-card__user">
+												<div class="review-card__user-img">
+													<img src="img/user-icon.svg" alt="">
+												</div>
+												<div class="review-card__use-desc">
+													<div class="review-card__user-name">Андрей Андреев</div>
+													<div class="review-card__user-post">эксперт</div>
+												</div>
+											</div>
+											<div class="estimation">
+												<div class="stars">
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+												</div>
+												<div class="estimation-number">5,0</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide review-card">
+										<div class="review-card__text">
+											<p>Брал в подарок. Удивительная качественная вещь. Имениннику очень понравилась. Решил себе тоже заказать. Все же приятно иметь возможность попить чайку по-царски!</p>
+											<p>Спасибо, очень помог консультант Ольга в выборе, подсказала и подобрала варианты.</p>
+											<p>Брал в подарок. Удивительная качественная вещь. Имениннику очень понравилась. Решил себе тоже заказать. Все же приятно иметь возможность попить чайку по-царски!</p>
+										</div>
+										<div class="review-card__group2">
+											<div class="review-card__user">
+												<div class="review-card__user-img">
+													<img src="img/user-icon.svg" alt="">
+												</div>
+												<div class="review-card__use-desc">
+													<div class="review-card__user-name">Ирина Шиленкова</div>
+													<div class="review-card__user-post">эксперт</div>
+												</div>
+											</div>
+											<div class="estimation">
+												<div class="stars">
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+													<div class="star">
+														<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.99967 0.333984L9.05968 4.50732L13.6663 5.18065L10.333 8.42732L11.1197 13.014L6.99967 10.8473L2.87967 13.014L3.66634 8.42732L0.333008 5.18065L4.93967 4.50732L6.99967 0.333984Z" fill="#111111"/>
+														</svg>
+													</div>
+												</div>
+												<div class="estimation-number">5,0</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="container">
+					<div class="products__inner tabs-inner">
+						<div class="products__top">
+							<h2 class="products__title h2">Похижие книги</h2>
+							<div class="quantity">(<span>18</span> позиций)</div>
+						</div>
+						<div class="directions__tabs-head">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div data-tab-path="1" class="swiper-slide directions__tab tab tab--active">Подарочные книги</div>
+									<div data-tab-path="2" class="swiper-slide directions__tab tab">По теме</div>
+									<div data-tab-path="3" class="swiper-slide directions__tab tab">По цене</div>
+									<div data-tab-path="4" class="swiper-slide directions__tab tab">По автору</div>
+								</div>
+							</div>
+						</div>
+						<div data-content-path="1" class="tab__content tab__content--active">
+							<div class="products__slider">
+								<div class="swiper mySwiper mySwiper2">
+									<div class="swiper-wrapper">
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Бизнесмены, изменившие мир"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочные книги "Русские деньги" нра подставке</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Оружие"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Хоккей. Великое наследие"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Бизнесмены, изменившие мир"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочные книги "Русские деньги" нра подставке</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Оружие"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Хоккей. Великое наследие"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="products__slider-btns products__slider-btns2">
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div data-content-path="2" class="tab__content">
+							<div class="products__slider">
+								<div class="swiper mySwiper mySwiper2">
+									<div class="swiper-wrapper">
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Бизнесмены, изменившие мир"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="products__slider-btns products__slider-btns2">
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div data-content-path="3" class="tab__content">
+							<div class="products__slider">
+								<div class="swiper mySwiper mySwiper2">
+									<div class="swiper-wrapper">
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Бизнесмены, изменившие мир"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочные книги "Русские деньги" нра подставке</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="products__slider-btns products__slider-btns2">
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div data-content-path="4" class="tab__content">
+							<div class="products__slider">
+								<div class="swiper mySwiper mySwiper2">
+									<div class="swiper-wrapper">
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Бизнесмены, изменившие мир"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочные книги "Русские деньги" нра подставке</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Оружие"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Хоккей. Великое наследие"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Бизнесмены, изменившие мир"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочные книги "Русские деньги" нра подставке</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Оружие"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+										<div class="product-card swiper-slide">
+											<div class="product-card__top">
+												<div class="hover__slide">
+													<div class="hover__images">
+														<a href="" class="hover__img hover__img--active" data-tab-path="1">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="2">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="3">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="4">
+															<img src="img/products-img3.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="5">
+															<img src="img/products-img4.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="6">
+															<img src="img/products-img.webp" alt="">
+														</a>
+														<a href="" class="hover__img" data-tab-path="7">
+															<img src="img/products-img2.webp" alt="">
+														</a>
+													</div>
+													<div class="hover__pag">
+														<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+														<button class="hover__pag-item" data-tab-path="2"></button>
+														<button class="hover__pag-item" data-tab-path="3"></button>
+														<button class="hover__pag-item" data-tab-path="4"></button>
+														<button class="hover__pag-item" data-tab-path="5"></button>
+														<button class="hover__pag-item" data-tab-path="6"></button>
+														<button class="hover__pag-item" data-tab-path="7"></button>
+													</div>
+												</div>
+												<button class="product-card__btn-hover btn btn-black">
+													<span>Быстрый просмотр</span>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__title">Подарочная книга "Хоккей. Великое наследие"</a>
+												<div class="product-card__price">78 200 ₽</div>
+												<div class="product-card__info">
+													<span>Наличие:</span>
+													удаленном складе
+												</div>
+											</div>
+											<div class="product-card__btns">
+												<button class="product-card__btn btn btn-black">
+													<span>В корзину</span>
+												</button>
+												<button class="product-card__btn btn btn-black__outline">
+													<span>заказать в 1 клик</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="products__slider-btns products__slider-btns2">
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<button class="products__btn btn btn-black__outline">
+							<span>Смотреть все</span>
+							<i class="arrow">
+								<svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1059 0.675736L18.9243 4.49411C19.1586 4.72843 19.1586 5.10833 18.9243 5.34264L15.1059 9.16102C14.8716 9.39533 14.4917 9.39533 14.2574 9.16102C14.023 8.9267 14.023 8.5468 14.2574 8.31249L17.0515 5.51838H0.5V4.31838H17.0515L14.2574 1.52426C14.023 1.28995 14.023 0.910051 14.2574 0.675736C14.4917 0.441421 14.8716 0.441421 15.1059 0.675736Z" fill="#111111"></path>
+								</svg>
+							</i>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="container">
+					<div class="products__inner">
+						<div class="products__top">
+							<h2 class="products__title h2">Вы недавно смотрели</h2>
+							<div class="quantity">(<span>18</span> позиций)</div>
+						</div>
+						<div class="products__slider">
+							<div class="swiper mySwiper mySwiper2">
+								<div class="swiper-wrapper">
+									<div class="product-card swiper-slide">
+										<div class="product-card__top">
+											<div class="hover__slide">
+												<div class="hover__images">
+													<a href="" class="hover__img hover__img--active" data-tab-path="1">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="2">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="3">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="4">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="5">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="6">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="7">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+												</div>
+												<div class="hover__pag">
+													<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+													<button class="hover__pag-item" data-tab-path="2"></button>
+													<button class="hover__pag-item" data-tab-path="3"></button>
+													<button class="hover__pag-item" data-tab-path="4"></button>
+													<button class="hover__pag-item" data-tab-path="5"></button>
+													<button class="hover__pag-item" data-tab-path="6"></button>
+													<button class="hover__pag-item" data-tab-path="7"></button>
+												</div>
+											</div>
+											<button class="product-card__btn-hover btn btn-black">
+												<span>Быстрый просмотр</span>
+											</button>
+										</div>
+										<div class="product-card__desc">
+											<a href="" class="product-card__title">Подарочная книга "Бизнесмены, изменившие мир"</a>
+											<div class="product-card__price">78 200 ₽</div>
+											<div class="product-card__info">
+												<span>Наличие:</span>
+												удаленном складе
+											</div>
+										</div>
+										<div class="product-card__btns">
+											<button class="product-card__btn btn btn-black">
+												<span>В корзину</span>
+											</button>
+											<button class="product-card__btn btn btn-black__outline">
+												<span>заказать в 1 клик</span>
+											</button>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__top">
+											<div class="hover__slide">
+												<div class="hover__images">
+													<a href="" class="hover__img hover__img--active" data-tab-path="1">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="2">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="3">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="4">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="5">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="6">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="7">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+												</div>
+												<div class="hover__pag">
+													<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+													<button class="hover__pag-item" data-tab-path="2"></button>
+													<button class="hover__pag-item" data-tab-path="3"></button>
+													<button class="hover__pag-item" data-tab-path="4"></button>
+													<button class="hover__pag-item" data-tab-path="5"></button>
+													<button class="hover__pag-item" data-tab-path="6"></button>
+													<button class="hover__pag-item" data-tab-path="7"></button>
+												</div>
+											</div>
+											<button class="product-card__btn-hover btn btn-black">
+												<span>Быстрый просмотр</span>
+											</button>
+										</div>
+										<div class="product-card__desc">
+											<a href="" class="product-card__title">Подарочные книги "Русские деньги" нра подставке</a>
+											<div class="product-card__price">78 200 ₽</div>
+											<div class="product-card__info">
+												<span>Наличие:</span>
+												удаленном складе
+											</div>
+										</div>
+										<div class="product-card__btns">
+											<button class="product-card__btn btn btn-black">
+												<span>В корзину</span>
+											</button>
+											<button class="product-card__btn btn btn-black__outline">
+												<span>заказать в 1 клик</span>
+											</button>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__top">
+											<div class="hover__slide">
+												<div class="hover__images">
+													<a href="" class="hover__img hover__img--active" data-tab-path="1">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="2">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="3">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="4">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="5">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="6">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="7">
+														<img src="img/products-img.webp" alt="">
+													</a>
+												</div>
+												<div class="hover__pag">
+													<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+													<button class="hover__pag-item" data-tab-path="2"></button>
+													<button class="hover__pag-item" data-tab-path="3"></button>
+													<button class="hover__pag-item" data-tab-path="4"></button>
+													<button class="hover__pag-item" data-tab-path="5"></button>
+													<button class="hover__pag-item" data-tab-path="6"></button>
+													<button class="hover__pag-item" data-tab-path="7"></button>
+												</div>
+											</div>
+											<button class="product-card__btn-hover btn btn-black">
+												<span>Быстрый просмотр</span>
+											</button>
+										</div>
+										<div class="product-card__desc">
+											<a href="" class="product-card__title">Подарочная книга "Оружие"</a>
+											<div class="product-card__price">78 200 ₽</div>
+											<div class="product-card__info">
+												<span>Наличие:</span>
+												удаленном складе
+											</div>
+										</div>
+										<div class="product-card__btns">
+											<button class="product-card__btn btn btn-black">
+												<span>В корзину</span>
+											</button>
+											<button class="product-card__btn btn btn-black__outline">
+												<span>заказать в 1 клик</span>
+											</button>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__top">
+											<div class="hover__slide">
+												<div class="hover__images">
+													<a href="" class="hover__img hover__img--active" data-tab-path="1">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="2">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="3">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="4">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="5">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="6">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="7">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+												</div>
+												<div class="hover__pag">
+													<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+													<button class="hover__pag-item" data-tab-path="2"></button>
+													<button class="hover__pag-item" data-tab-path="3"></button>
+													<button class="hover__pag-item" data-tab-path="4"></button>
+													<button class="hover__pag-item" data-tab-path="5"></button>
+													<button class="hover__pag-item" data-tab-path="6"></button>
+													<button class="hover__pag-item" data-tab-path="7"></button>
+												</div>
+											</div>
+											<button class="product-card__btn-hover btn btn-black">
+												<span>Быстрый просмотр</span>
+											</button>
+										</div>
+										<div class="product-card__desc">
+											<a href="" class="product-card__title">Подарочная книга "Хоккей. Великое наследие"</a>
+											<div class="product-card__price">78 200 ₽</div>
+											<div class="product-card__info">
+												<span>Наличие:</span>
+												удаленном складе
+											</div>
+										</div>
+										<div class="product-card__btns">
+											<button class="product-card__btn btn btn-black">
+												<span>В корзину</span>
+											</button>
+											<button class="product-card__btn btn btn-black__outline">
+												<span>заказать в 1 клик</span>
+											</button>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__top">
+											<div class="hover__slide">
+												<div class="hover__images">
+													<a href="" class="hover__img hover__img--active" data-tab-path="1">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="2">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="3">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="4">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="5">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="6">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="7">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+												</div>
+												<div class="hover__pag">
+													<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+													<button class="hover__pag-item" data-tab-path="2"></button>
+													<button class="hover__pag-item" data-tab-path="3"></button>
+													<button class="hover__pag-item" data-tab-path="4"></button>
+													<button class="hover__pag-item" data-tab-path="5"></button>
+													<button class="hover__pag-item" data-tab-path="6"></button>
+													<button class="hover__pag-item" data-tab-path="7"></button>
+												</div>
+											</div>
+											<button class="product-card__btn-hover btn btn-black">
+												<span>Быстрый просмотр</span>
+											</button>
+										</div>
+										<div class="product-card__desc">
+											<a href="" class="product-card__title">Подарочная книга "Бизнесмены, изменившие мир"</a>
+											<div class="product-card__price">78 200 ₽</div>
+											<div class="product-card__info">
+												<span>Наличие:</span>
+												удаленном складе
+											</div>
+										</div>
+										<div class="product-card__btns">
+											<button class="product-card__btn btn btn-black">
+												<span>В корзину</span>
+											</button>
+											<button class="product-card__btn btn btn-black__outline">
+												<span>заказать в 1 клик</span>
+											</button>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__top">
+											<div class="hover__slide">
+												<div class="hover__images">
+													<a href="" class="hover__img hover__img--active" data-tab-path="1">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="2">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="3">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="4">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="5">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="6">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="7">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+												</div>
+												<div class="hover__pag">
+													<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+													<button class="hover__pag-item" data-tab-path="2"></button>
+													<button class="hover__pag-item" data-tab-path="3"></button>
+													<button class="hover__pag-item" data-tab-path="4"></button>
+													<button class="hover__pag-item" data-tab-path="5"></button>
+													<button class="hover__pag-item" data-tab-path="6"></button>
+													<button class="hover__pag-item" data-tab-path="7"></button>
+												</div>
+											</div>
+											<button class="product-card__btn-hover btn btn-black">
+												<span>Быстрый просмотр</span>
+											</button>
+										</div>
+										<div class="product-card__desc">
+											<a href="" class="product-card__title">Подарочные книги "Русские деньги" нра подставке</a>
+											<div class="product-card__price">78 200 ₽</div>
+											<div class="product-card__info">
+												<span>Наличие:</span>
+												удаленном складе
+											</div>
+										</div>
+										<div class="product-card__btns">
+											<button class="product-card__btn btn btn-black">
+												<span>В корзину</span>
+											</button>
+											<button class="product-card__btn btn btn-black__outline">
+												<span>заказать в 1 клик</span>
+											</button>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__top">
+											<div class="hover__slide">
+												<div class="hover__images">
+													<a href="" class="hover__img hover__img--active" data-tab-path="1">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="2">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="3">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="4">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="5">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="6">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="7">
+														<img src="img/products-img.webp" alt="">
+													</a>
+												</div>
+												<div class="hover__pag">
+													<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+													<button class="hover__pag-item" data-tab-path="2"></button>
+													<button class="hover__pag-item" data-tab-path="3"></button>
+													<button class="hover__pag-item" data-tab-path="4"></button>
+													<button class="hover__pag-item" data-tab-path="5"></button>
+													<button class="hover__pag-item" data-tab-path="6"></button>
+													<button class="hover__pag-item" data-tab-path="7"></button>
+												</div>
+											</div>
+											<button class="product-card__btn-hover btn btn-black">
+												<span>Быстрый просмотр</span>
+											</button>
+										</div>
+										<div class="product-card__desc">
+											<a href="" class="product-card__title">Подарочная книга "Оружие"</a>
+											<div class="product-card__price">78 200 ₽</div>
+											<div class="product-card__info">
+												<span>Наличие:</span>
+												удаленном складе
+											</div>
+										</div>
+										<div class="product-card__btns">
+											<button class="product-card__btn btn btn-black">
+												<span>В корзину</span>
+											</button>
+											<button class="product-card__btn btn btn-black__outline">
+												<span>заказать в 1 клик</span>
+											</button>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__top">
+											<div class="hover__slide">
+												<div class="hover__images">
+													<a href="" class="hover__img hover__img--active" data-tab-path="1">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="2">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="3">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="4">
+														<img src="img/products-img3.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="5">
+														<img src="img/products-img4.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="6">
+														<img src="img/products-img.webp" alt="">
+													</a>
+													<a href="" class="hover__img" data-tab-path="7">
+														<img src="img/products-img2.webp" alt="">
+													</a>
+												</div>
+												<div class="hover__pag">
+													<button class="hover__pag-item hover__pag-item--active" data-tab-path="1"></button>
+													<button class="hover__pag-item" data-tab-path="2"></button>
+													<button class="hover__pag-item" data-tab-path="3"></button>
+													<button class="hover__pag-item" data-tab-path="4"></button>
+													<button class="hover__pag-item" data-tab-path="5"></button>
+													<button class="hover__pag-item" data-tab-path="6"></button>
+													<button class="hover__pag-item" data-tab-path="7"></button>
+												</div>
+											</div>
+											<button class="product-card__btn-hover btn btn-black">
+												<span>Быстрый просмотр</span>
+											</button>
+										</div>
+										<div class="product-card__desc">
+											<a href="" class="product-card__title">Подарочная книга "Хоккей. Великое наследие"</a>
+											<div class="product-card__price">78 200 ₽</div>
+											<div class="product-card__info">
+												<span>Наличие:</span>
+												удаленном складе
+											</div>
+										</div>
+										<div class="product-card__btns">
+											<button class="product-card__btn btn btn-black">
+												<span>В корзину</span>
+											</button>
+											<button class="product-card__btn btn btn-black__outline">
+												<span>заказать в 1 клик</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products__slider-btns">
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="connection">
+				<div class="container">
+					<div class="connection__inner">
+						<h2 class="connection__title h2">Введите e-mail и мы будем сообщать вам о новых эксклюзивных библиотеках</h2>
+						<form class="connection-form">
+							<div class="connection-form__wrap">
+								<div class="connection-form__group">
+									<input type="email" placeholder="Email">
+								</div>
+								<button class="connection-form__btn btn btn-black">
+									<span>Подписаться</span>
+								</button>
+							</div>
+							<div class="connection-form__check">
+								Отправляя данные, я соглашаюсь c условиями
+								<a href="">Политика конфиденциальности</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__group">
+            <div class="container">
+                <ul class="footer__list">
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="">Оплата</a></li>
+                    <li><a href="">Контакты</a></li>
+                    <li><a href="">Возврат</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Cтатьи</a></li>
+                    <li><a href="">Портфолио</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__group">
+            <div class="container">
+                <div class="flex-group">
+                    <div class="footer__time">Время работы с 9.00 до 21.00</div>
+                    <a class="footer__phone" href="tel:79603295500">+7 (960) 329-55-00</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__group">
+            <div class="container">
+                <div class="footer__payment-wrap">
+                    <div class="footer__payment-title">Способы оплаты:</div>
+                    <div class="footer__payment">
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img2.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img3.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img4.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img5.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img6.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__payment-text">
+                        Вы можете оплатить покупки при получении, либо 
+                        <a href="">выбрать другой способ оплаты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__group">
+            <div class="container">
+                <a class="footer__politic" href="">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	</div>
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
