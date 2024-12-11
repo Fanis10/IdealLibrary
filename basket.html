@@ -153,8 +153,11 @@
 													<div class="basket-card__title">Подарочная книга "Бизнесмены, изменившие мир"</div>
 													<div class="basket-card__article">Артикул: 092-13</div>
 													<div class="basket-card__price">78 200 ₽</div>
-													<div class="basket-card__show">
-														<span>Доп. услуги</span>
+													<div class="basket-card__show-wrap">
+														<div class="basket-card__show">
+															<span>Доп. услуги</span>
+														</div>
+														<input disabled class="number-products" type="number" value="1">
 													</div>
 												</div>
 												<div class="basket-card__group2">
@@ -264,8 +267,11 @@
 													<div class="basket-card__title">Подарочная книга "Бизнесмены, изменившие мир"</div>
 													<div class="basket-card__article">Артикул: 092-13</div>
 													<div class="basket-card__price">78 200 ₽</div>
-													<div class="basket-card__show">
-														<span>Доп. услуги</span>
+													<div class="basket-card__show-wrap">
+														<div class="basket-card__show">
+															<span>Доп. услуги</span>
+														</div>
+														<input disabled class="number-products" type="number" value="1">
 													</div>
 												</div>
 												<div class="basket-card__group2">
@@ -375,8 +381,11 @@
 													<div class="basket-card__title">Подарочная книга "Бизнесмены, изменившие мир"</div>
 													<div class="basket-card__article">Артикул: 092-13</div>
 													<div class="basket-card__price">78 200 ₽</div>
-													<div class="basket-card__show">
-														<span>Доп. услуги</span>
+													<div class="basket-card__show-wrap">
+														<div class="basket-card__show">
+															<span>Доп. услуги</span>
+														</div>
+														<input disabled class="number-products" type="number" value="1">
 													</div>
 												</div>
 												<div class="basket-card__group2">
@@ -492,7 +501,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="basket-form__wrap">
+								<div id="basket-form" class="basket-form__wrap">
 									<h2 class="basket-form__title h2">Контактные данные</h2>
 									<form class="basket-form">
 										<div class="basket-form__group connection-form__group">
@@ -503,9 +512,12 @@
 											<label class="input-title">Телефон <span></span></label>
 											<input type="tel" placeholder="+ 7 ( 999 ) 999 - 99 - 99">
 										</div>
-										<div class="basket-form__group connection-form__group">
+										<div class="basket-form__group connection-form__group error">
 											<label class="input-title">E-mail</label>
 											<input type="email" placeholder="exemple@gmail.com">
+											<div class="error-text">
+												<span>Текст для валидированной ошибки в несколько строчек</span>
+											</div>
 										</div>
 										<div class="basket-form__group connection-form__group">
 											<label class="input-title">Адрес доставки</label>
@@ -519,16 +531,18 @@
 								</div>
 							</div>
 							<div class="basket__right">
-								<div class="total">
-									<div class="total__title">ИТОГО:</div>
-									<div class="total__price-wrap">
-										<div class="total__price-text">2 товара на сумму</div>
+								<div class="total fixed-total">
+									<div class="total__wrap">
+										<div class="total__group">
+											<div class="total__title">ИТОГО:</div>
+											<div class="total__price-text">2 товара на сумму</div>
+										</div>
 										<div class="total__price">178 200 ₽</div>
 									</div>
 									<div class="total__btns">
-										<button class="total__btn btn btn-black">
+										<a href="#basket-form" class="total__btn btn btn-black">
 											<span>Оформить заказ</span>
-										</button>
+										</a>
 									</div>
 								</div>
 							</div>
