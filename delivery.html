@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="@@description">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Доставка и оплата</title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top__inner">
+                <ul class="header-bottom__list">
+                    <li><a href="">Подарочные книги</a></li>
+                    <li><a href="">Готовые библиотеки</a></li>
+                    <li><a href="">Мебель для библиотек</a></li>
+                    <li><a href="">Антикварные книги</a></li>
+                    <li><a href="">Книги АРТ-объекты</a></li>
+                    <li><a href="">Авторы</a></li>
+                </ul>
+                <div class="search">
+                    <input class="search-input" type="text">
+                    <span class="search-title">Поиск...</span>
+                    <button class="search-btn">
+                        <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M9.99999 0.25C4.61521 0.25 0.25 4.61521 0.25 9.99999C0.25 15.3848 4.61521 19.75 9.99999 19.75C12.151 19.75 14.1393 19.0534 15.7517 17.8736L20.4238 23.4801L21.5762 22.5199L16.891 16.8976C18.6573 15.133 19.75 12.6941 19.75 9.99999C19.75 4.61521 15.3848 0.25 9.99999 0.25ZM1.75 9.99999C1.75 5.44364 5.44364 1.75 9.99999 1.75C14.5564 1.75 18.25 5.44364 18.25 9.99999C18.25 14.5564 14.5564 18.25 9.99999 18.25C5.44364 18.25 1.75 14.5564 1.75 9.99999Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                </div>
+                <ul class="header-top__list">
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Контакты</a></li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="">Услуги</a></li>
+                </ul>
+                <div class="header-top__group">
+                    <div class="header-top__time">Время работы с 9.00 до 21.00</div>
+                    <a href="tel:79603295500" class="header-top__phone">+7 (960) 329-55-00</a>
+                    <div class="header-top__socials">
+                        <a class="header-top__social" href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6275 5.37258 24 12 24C18.6275 24 24 18.6275 24 12C24 5.37258 18.6275 0 12 0ZM1.64119 12C1.64119 6.27899 6.27899 1.64119 12 1.64119C17.7211 1.64119 22.3588 6.27898 22.3588 12C22.3588 17.7211 17.7211 22.3588 12 22.3588C6.27898 22.3588 1.64119 17.7211 1.64119 12ZM9.56217 16.6349L9.7654 13.7317L15.0977 8.95104C15.3299 8.74781 15.0493 8.63168 14.7396 8.83491L8.15894 12.9478L5.32346 12.0672C4.7041 11.8736 4.69443 11.4478 5.44926 11.1575L16.5299 6.91878C17.0428 6.72523 17.488 7.03491 17.3235 7.8091L15.4364 16.6446C15.3009 17.264 14.9235 17.4188 14.4009 17.1285L11.5267 15.0285L10.1428 16.3543C9.98798 16.5091 9.86218 16.6349 9.56217 16.6349Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a class="header-top__social" href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20.4922 3.49247C18.2366 1.24663 15.2354 0.00951626 12.043 0C5.45759 0 0.105137 5.33862 0.0955794 11.8953C0.0955794 13.9889 0.640382 16.0349 1.69176 17.843L0 24L6.33692 22.3442C8.08602 23.2958 10.0454 23.7906 12.043 23.7906H12.0526C18.638 23.7906 23.9904 18.452 24 11.8953C23.9904 8.72641 22.7479 5.7383 20.4922 3.49247ZM12.043 21.7922C10.2557 21.7922 8.50657 21.3164 6.98686 20.4124L6.62366 20.1935L2.86738 21.1737L3.87097 17.5289L3.63202 17.1578C2.63799 15.5876 2.11231 13.7605 2.11231 11.8953C2.11231 6.44251 6.56631 2.00793 12.043 2.00793C14.6906 2.00793 17.1852 3.03569 19.0585 4.91039C20.9319 6.77557 21.9642 9.25932 21.9642 11.9048C21.9737 17.3577 17.5197 21.7922 12.043 21.7922ZM17.491 14.3886C17.1947 14.2363 15.7228 13.5226 15.4552 13.4179C15.178 13.3228 14.9869 13.2657 14.7861 13.5702C14.5854 13.8652 14.0119 14.5408 13.8399 14.7312C13.6679 14.931 13.4958 14.95 13.19 14.8073C12.8937 14.655 11.9283 14.341 10.7909 13.3323C9.90203 12.5424 9.30944 11.5718 9.12784 11.2768C8.95579 10.9818 9.12784 10.8295 9.26165 10.6677C9.58662 10.268 9.91159 9.84933 10.0072 9.64948C10.1027 9.44964 10.055 9.27835 9.97849 9.12609C9.90203 8.97383 9.30944 7.51784 9.06093 6.91832C8.82198 6.34734 8.57348 6.42347 8.39188 6.41396C8.21983 6.40444 8.01912 6.40444 7.8184 6.40444C7.61768 6.40444 7.29271 6.48057 7.02509 6.77557C6.74791 7.07058 5.98327 7.79381 5.98327 9.2498C5.98327 10.7058 7.05376 12.1237 7.20669 12.3236C7.35962 12.5234 9.30944 15.521 12.3011 16.8057C13.0179 17.1102 13.5723 17.291 14.0024 17.4338C14.7192 17.6622 15.3692 17.6241 15.8853 17.548C16.4588 17.4623 17.6535 16.8247 17.902 16.1396C18.1505 15.4449 18.1505 14.8549 18.0741 14.7312C17.9881 14.6075 17.7873 14.5313 17.491 14.3886Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <button class="header-top__btn">
+                        <span>Обратный звонок</span>
+                    </button>
+                </div>
+                <button class="header-center__btn btn btn-white__outline">
+                    <span>Индивидуальный заказ</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="header-center">
+        <div class="container">
+            <div class="header-center__inner">
+                <a href="" class="header-center__logo">
+                    <img src="img/logo.svg" alt="">
+                    <img src="img/logo-mob.svg" alt="">
+                </a>
+                <div class="header-center__wrap">
+                    <button class="header-center__btn btn btn-white__outline">
+                        <span>Индивидуальный заказ</span>
+                    </button>
+                    <div class="header-center__group">
+                        <a class="header-center__phone" href="">
+                            <svg width="21" height="22" viewBox="0 0 21 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.9195 12.9949L15.9152 12.9924C14.8593 12.3676 13.7076 12.7341 13.1801 13.4423C12.9721 13.7158 12.7077 14.3251 12.3269 14.3479C9.91198 13.6568 8.15678 11.519 7.43048 9.17403C7.39377 9.05551 7.38138 8.87541 7.48543 8.78576L8.26692 8.12483C8.95654 7.55818 9.25393 6.38847 8.70024 5.33098L8.69591 5.32284C7.85169 3.75757 7.16268 2.89752 6.7632 2.39887C6.35825 1.89338 5.98196 1.39978 5.29494 1.27782C4.79504 1.18907 4.33891 1.33804 3.89555 1.5512C3.20474 1.96387 2.457 2.57083 1.93388 3.30832C1.41019 4.04662 1.05457 5.00648 1.367 6.03791C2.36972 10.0489 8.4885 18.1499 15.1525 20.6212C16.1795 20.9723 17.1239 20.5593 17.8191 20.0034C18.5568 19.4134 19.1952 18.5918 19.5694 17.7219C19.9171 16.8759 19.7675 15.9597 19.075 15.3483C18.2009 14.5284 16.9191 13.5955 15.9195 12.9949Z"
+                                    stroke="white" stroke-width="1.5" stroke-miterlimit="10" />
+                            </svg>
+                        </a>
+                        <div class="search">
+                            <input class="search-input" type="text">
+                            <span class="search-title">Поиск...</span>
+                            <button class="search-btn">
+                                <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.99999 0.25C4.61521 0.25 0.25 4.61521 0.25 9.99999C0.25 15.3848 4.61521 19.75 9.99999 19.75C12.151 19.75 14.1393 19.0534 15.7517 17.8736L20.4238 23.4801L21.5762 22.5199L16.891 16.8976C18.6573 15.133 19.75 12.6941 19.75 9.99999C19.75 4.61521 15.3848 0.25 9.99999 0.25ZM1.75 9.99999C1.75 5.44364 5.44364 1.75 9.99999 1.75C14.5564 1.75 18.25 5.44364 18.25 9.99999C18.25 14.5564 14.5564 18.25 9.99999 18.25C5.44364 18.25 1.75 14.5564 1.75 9.99999Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </div>
+                        <a href="" class="header-center__basket">
+                            <svg width="29" height="21" viewBox="0 0 29 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.44356 7.35943L12.4202 0.892926L11.1424 0.107178L6.68262 7.35943H4.01562H0.9375V8.85943H3.45872L6.77082 19.823C6.86645 20.1396 7.1581 20.3561 7.48877 20.3561H22.45C22.7807 20.3561 23.0723 20.1396 23.168 19.823L26.48 8.85943H28.9983V7.35943H25.9231H23.2588L18.799 0.10718L17.5213 0.892924L21.4979 7.35943H8.44356ZM24.9131 8.85943H5.02568L8.04568 18.8561H21.8931L24.9131 8.85943Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <div class="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header-bottom__inner">
+                <ul class="header-bottom__list">
+                    <li><a href="">Подарочные книги</a></li>
+                    <li><a href="">Готовые библиотеки</a></li>
+                    <li><a href="">Мебель для библиотек</a></li>
+                    <li><a href="">Антикварные книги</a></li>
+                    <li><a href="">Книги АРТ-объекты</a></li>
+                    <li><a href="">Авторы</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+		<main class="content">
+			<section class="breadcrumbs">
+				<div class="container">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<a href="index.html" class="swiper-slide breadcrumbs__item">Главная</a>
+							<span class="swiper-slide breadcrumbs__item breadcrumbs__item--active">Доставка и оплата</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="delivery">
+				<div class="container">
+					<div class="delivery__inner tabs-inner">
+						<h2 class="directions__title h2">Доставка</h2>
+						<div class="directions__tabs-head">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div data-tab-path="1" class="swiper-slide delivery__tab directions__tab tab tab--active">Курьерская
+										доставка</div>
+									<div data-tab-path="2" class="swiper-slide delivery__tab directions__tab tab">Самовывоз
+									</div>
+									<div data-tab-path="3" class="swiper-slide delivery__tab directions__tab tab">Доставка транспортной
+										компанией</div>
+								</div>
+							</div>
+						</div>
+						<div class="directions__tabs-body">
+							<div data-content-path="1" class="directions__content tab__content tab__content--active">
+								<div class="delivery__wrap">
+									<div class="delivery__text">
+										<p>Курьерская доставка книг осуществляется:</p>
+									</div>
+									<div class="delivery__grid text">
+										<nav>
+											<h3>День в день</h3>
+											<ul>
+												<li>По Москве — <span>700 рублей</span>;</li>
+												<li>по Московской области — <span>1 500 рублей</span> до 15 км от МКАД, <span>2 000
+														рублей</span> — до 50 км до МКАД.</li>
+											</ul>
+										</nav>
+										<nav>
+											<h3>На следующий день</h3>
+											<ul>
+												<li>По Москве — <span>500 рублей</span>;</li>
+												<li>по Московской области — <span>1 000 рублей</span> до 15 км от МКАД, <span>1 500
+														рублей</span> — до 50 км до МКАД.</li>
+											</ul>
+										</nav>
+									</div>
+									<div class="delivery__text">
+										<p>
+											Книги, стоимостью <span>от 100 000 рублей</span> по Москве и Московской области доставляются
+											бесплатно. <br>
+											В другие регионы — по тарифам транспортных компаний в максимально короткие сроки.
+										</p>
+										<p>Доставка в Дубае бесплатно.</p>
+									</div>
+								</div>
+								<div class="payment">
+									<h2 class="payment__title h2">Способы оплаты</h2>
+									<div class="payment__wrap">
+										<div class="payment__group">
+											<div class="payment__subtitle">При получении</div>
+											<div class="payment__cards">
+												<div class="payment-card">
+													<input type="radio" name="payment">
+													<div class="payment-card__wrap">
+														<div class="payment-card__icon">
+															<img src="img/payment-icon.svg" alt="">
+														</div>
+														<div class="payment-card__title">Банковской картой</div>
+														<button class="payment-card__btn btn">
+															<span>Подробнее</span>
+														</button>
+													</div>
+												</div>
+												<div class="payment-card">
+													<input type="radio" name="payment">
+													<div class="payment-card__wrap">
+														<div class="payment-card__icon">
+															<img src="img/payment-icon2.svg" alt="">
+														</div>
+														<div class="payment-card__title">Наличными</div>
+														<button class="payment-card__btn btn">
+															<span>Подробнее</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="payment__group">
+											<div class="payment__subtitle">Предоплата</div>
+											<div class="payment__cards">
+												<div class="payment-card">
+													<input type="radio" name="payment">
+													<div class="payment-card__wrap">
+														<div class="payment-card__icon">
+															<img src="img/payment-icon3.svg" alt="">
+														</div>
+														<div class="payment-card__title">Оплата по счету</div>
+														<button class="payment-card__btn btn">
+															<span>Подробнее</span>
+														</button>
+													</div>
+												</div>
+												<div class="payment-card">
+													<input type="radio" name="payment">
+													<div class="payment-card__wrap">
+														<div class="payment-card__icon">
+															<img src="img/payment-icon4.svg" alt="">
+														</div>
+														<div class="payment-card__title">Банковской картой</div>
+														<button class="payment-card__btn btn">
+															<span>Подробнее</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-content-path="2" class="directions__content tab__content">
+								<div class="delivery__wrap">
+									<div class="delivery__items">
+										<div class="delivery__item">
+											<div class="delivery__item-title">Москва</div>
+											<div class="delivery__item-text">
+												<span>Адрес:</span>
+												г. Москва, Новочеремушкинсая, 17
+											</div>
+										</div>
+										<div class="delivery__item">
+											<div class="delivery__item-title">Дубай:</div>
+											<div class="delivery__item-text">
+												<span>Адрес:</span>
+												Dubai,Barsha Heights, I-Rise Tower, office 19C067
+											</div>
+										</div>
+									</div>
+									<div class="delivery__text">
+										<p>Бесплатно. <span>По предварительной договорённости.</span> </p>
+									</div>
+									<button class="delivery__btn">
+										<span>Контакты</span>
+									</button>
+									<div class="map-wrap">
+										<div class="map" style="position:relative;overflow:hidden;"><a
+												href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+												style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
+												href="https://yandex.ru/maps/213/moscow/house/novocheryomushkinskaya_ulitsa_17/Z04Ycw9jQU0BQFtvfXp5cnhqbA==/?ll=37.583886%2C55.683498&utm_medium=mapframe&utm_source=maps&z=16"
+												style="color:#eee;font-size:12px;position:absolute;top:14px;">Новочерёмушкинская улица, 17 —
+												Яндекс Карты</a><iframe
+												src="https://yandex.ru/map-widget/v1/?ll=37.583886%2C55.683498&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0MzU2MjA0MDE2Ek_QoNC-0YHRgdC40Y8sINCc0L7RgdC60LLQsCwg0J3QvtCy0L7Rh9C10YDRkdC80YPRiNC60LjQvdGB0LrQsNGPINGD0LvQuNGG0LAsIDE3IgoN5VUWQhXnu15C&z=16"
+												frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+										</div>
+									</div>
+								</div>
+								<div class="payment">
+									<h2 class="payment__title h2">Способы оплаты</h2>
+									<div class="payment__wrap">
+										<div class="payment__group">
+											<div class="payment__subtitle">При получении</div>
+											<div class="payment__cards">
+												<div class="payment-card">
+													<input type="radio" name="payment2">
+													<div class="payment-card__wrap">
+														<div class="payment-card__icon">
+															<img src="img/payment-icon.svg" alt="">
+														</div>
+														<div class="payment-card__title">Банковской картой</div>
+														<button class="payment-card__btn btn">
+															<span>Подробнее</span>
+														</button>
+													</div>
+												</div>
+												<div class="payment-card">
+													<input type="radio" name="payment2">
+													<div class="payment-card__wrap">
+														<div class="payment-card__icon">
+															<img src="img/payment-icon2.svg" alt="">
+														</div>
+														<div class="payment-card__title">Наличными</div>
+														<button class="payment-card__btn btn">
+															<span>Подробнее</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="payment__group">
+											<div class="payment__subtitle">Предоплата</div>
+											<div class="payment__cards">
+												<div class="payment-card">
+													<input type="radio" name="payment2">
+													<div class="payment-card__wrap">
+														<div class="payment-card__icon">
+															<img src="img/payment-icon3.svg" alt="">
+														</div>
+														<div class="payment-card__title">Оплата по счету</div>
+														<button class="payment-card__btn btn">
+															<span>Подробнее</span>
+														</button>
+													</div>
+												</div>
+												<div class="payment-card">
+													<input type="radio" name="payment2">
+													<div class="payment-card__wrap">
+														<div class="payment-card__icon">
+															<img src="img/payment-icon4.svg" alt="">
+														</div>
+														<div class="payment-card__title">Банковской картой</div>
+														<button class="payment-card__btn btn">
+															<span>Подробнее</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-content-path="3" class="directions__content tab__content">
+								<div class="delivery__wrap">
+									<div class="delivery__text">
+										<p>
+											Доставка транспортной компанией по выбору клиента в <span>максимально короткие сроки, за счёт
+												клиента</span>. 
+										</p>
+									</div>
+									<div class="delivery__images">
+										<div class="delivery__img">
+											<img src="img/delivery-img.png" alt="">
+										</div>
+										<div class="delivery__img">
+											<img src="img/delivery-img2.png" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="payment">
+									<h2 class="payment__title h2">Способы оплаты</h2>
+									<div class="payment__group">
+										<div class="payment__subtitle">Предоплата</div>
+										<div class="payment__cards">
+											<div class="payment-card">
+												<input type="radio" name="payment2">
+												<div class="payment-card__wrap">
+													<div class="payment-card__icon">
+														<img src="img/payment-icon3.svg" alt="">
+													</div>
+													<div class="payment-card__title">Оплата по счету</div>
+													<button class="payment-card__btn btn">
+														<span>Подробнее</span>
+													</button>
+												</div>
+											</div>
+											<div class="payment-card">
+												<input type="radio" name="payment2">
+												<div class="payment-card__wrap">
+													<div class="payment-card__icon">
+														<img src="img/payment-icon4.svg" alt="">
+													</div>
+													<div class="payment-card__title">Банковской картой</div>
+													<button class="payment-card__btn btn">
+														<span>Подробнее</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="connection">
+				<div class="container">
+					<div class="connection__inner">
+						<h2 class="connection__title h2">Введите e-mail и мы будем сообщать вам о новых эксклюзивных библиотеках
+						</h2>
+						<form class="connection-form">
+							<div class="connection-form__wrap">
+								<div class="connection-form__group">
+									<input type="email" placeholder="Email">
+								</div>
+								<button class="connection-form__btn btn btn-black">
+									<span>Подписаться</span>
+								</button>
+							</div>
+							<div class="connection-form__check">
+								Отправляя данные, я соглашаюсь c условиями
+								<a href="">Политика конфиденциальности</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__group">
+            <div class="container">
+                <ul class="footer__list">
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="">Оплата</a></li>
+                    <li><a href="">Контакты</a></li>
+                    <li><a href="">Возврат</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Cтатьи</a></li>
+                    <li><a href="">Портфолио</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__group">
+            <div class="container">
+                <div class="flex-group">
+                    <div class="footer__time">Время работы с 9.00 до 21.00</div>
+                    <a class="footer__phone" href="tel:79603295500">+7 (960) 329-55-00</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__group">
+            <div class="container">
+                <div class="footer__payment-wrap">
+                    <div class="footer__payment-title">Способы оплаты:</div>
+                    <div class="footer__payment">
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img2.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img3.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img4.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img5.webp" alt="">
+                        </a>
+                        <a class="footer__payment-method" href="">
+                            <img src="img/payment-img6.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__payment-text">
+                        Вы можете оплатить покупки при получении, либо 
+                        <a href="">выбрать другой способ оплаты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__group">
+            <div class="container">
+                <a class="footer__politic" href="">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	</div>
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
